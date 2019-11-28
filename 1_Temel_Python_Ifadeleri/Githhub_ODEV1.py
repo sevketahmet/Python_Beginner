@@ -1,11 +1,18 @@
 1-)Kullanıcıdan bir kelime alıp bu kelimeyi bir değişkene aktardıktan sonra yan yana 10 kere yazdırınız.
 
+a=input("bir kelime girin         : ")
+print(a,a,a,a,a,a,a,a,a,a)
 
 
 
 2-)Kullanıcıdan aldığınız iki sayının çarpımı ile bölümlerinin arasındaki fark nedir?
 
-
+a=input("birinci sayı girin     :")
+b=input("ikinci sayıyı girin    :")
+c=int(a)*int(b)
+d=int(a)/int(b)
+fark=int(c)-int(d)
+print("sayıların çarpımları ve bölümleri arasındaki fark",fark)
 
 
 
