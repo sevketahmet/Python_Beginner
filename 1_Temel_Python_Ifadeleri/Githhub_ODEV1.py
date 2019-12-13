@@ -21,6 +21,12 @@ Listeler:
     b-) Daha sonra oluşturduğunuz bu listeye "üniversite"den sonra "Bursa" kelimesini ekleyiniz.
     c-) En sondaki kelimeyi bu listeden siliniz.
     d-)Listedeki Kelimleri sondan başa doğru sıralayınız.
+liste=["uludag","üniversitesi","yapay","zeka","topluluğu"]
+print(liste.index("yapay"))
+liste.insert(2,"bursa")
+liste.pop()
+liste.reverse()
+print(liste)
 
     
     
